@@ -21,13 +21,13 @@ type MovieCardProps = {
 
 export const MovieCard = ({ title, score, image }: MovieCardProps) => {
   return (
-    <Card className="bg-secondary w-[230px] h-[439px] p-0 overflow-hidden gap-2">
+    <Card className="bg-secondary w-[230px] h-[439px] p-0 overflow-hidden gap-2 mt-13 mx-2.5 ml-10 ">
       <CardContent className="p-0">
         <Image width={230} height={430} src={image} alt="" unoptimized />
       </CardContent>
       <CardFooter className="flex flex-col items-start gap-2 text-lg ">
-        <CardDescription className="text-[14px] flex h-6 justify-center gap-1">
-          <FaStar color="black" />
+        <CardDescription className="text-[14px] flex h-6  gap-2 items-center">
+          <FaStar color="gray" />
           <span>{score}/10</span>
         </CardDescription>
         <CardDescription className="text-lg">{title}</CardDescription>

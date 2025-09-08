@@ -1,5 +1,7 @@
 import { MovieCard} from "@/components/home";
 import { NavigationMenuDemo } from "@/components/home";
+import { CiSearch } from "react-icons/ci";
+
 
 export default function Home() {
   return (
@@ -35,6 +37,7 @@ export default function Home() {
         image="https://m.media-amazon.com/images/M/MV5BYmI3NDAyZGUtYWZiZC00YWIwLTgyNDQtYjZmOGFmNTkzODYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       />
       </div>
+     
    </div>
   );
 }

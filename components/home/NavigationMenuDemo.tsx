@@ -9,6 +9,9 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import { Input } from "../ui/input";
+import { CiSearch } from "react-icons/ci";
+import { ModeToggle } from "../ui/mode-toggle";
+
 
 export const NavigationMenuDemo = () => {
   return (
@@ -28,8 +31,10 @@ export const NavigationMenuDemo = () => {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <Input className="w-[370px] ml-[12px]" placeholder="Search" />
-      <img src="images/icon.png" alt="icon" className="ml-[332px]" />
+      <Input className="w-[370px] ml-[12px] mr-[300px]" placeholder="Search"  />
+      
+      <ModeToggle/>
+      
     </div>
   );
 };

@@ -1,3 +1,2 @@
 export * from "./MovieCard";
-export * from "./NavigationMenuDemo"
-
+export * from "./NavigationMenuDemo";

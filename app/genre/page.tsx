@@ -1,3 +1,9 @@
-export default function Home() {
-  return <div className="bg-red-500 h-100 w-100">Hello</div>;
+import React from 'react'
+
+const GenrePage = () => {
+  return (
+    <div>GenrePage</div>
+  )
 }
+
+export default GenrePage
